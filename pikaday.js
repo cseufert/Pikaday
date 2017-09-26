@@ -341,6 +341,8 @@
         if (opts.isEndRange) {
             arr.push('is-endrange');
         }
+        if (opts.dayClass)
+            opts.dayClass(opts, arr);
         return '<td data-day="' + opts.day + '" class="' + arr.join(' ') + '" aria-selected="' + ariaSelected + '">' +
                  '<button class="pika-button pika-day" type="button" ' +
                     'data-pika-year="' + opts.year + '" data-pika-month="' + opts.month + '" data-pika-day="' + opts.day + '">' +
