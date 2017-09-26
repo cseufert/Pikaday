@@ -1144,6 +1144,7 @@
                 }
 
                 var dayConfig = {
+                        o: opts,
                         day: dayNumber,
                         month: monthNumber,
                         year: yearNumber,
