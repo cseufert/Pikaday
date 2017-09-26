@@ -156,6 +156,7 @@ Pikaday has many useful options:
 * `onClose` callback function for when the picker is hidden
 * `onDraw` callback function for when the picker draws a new month
 * `keyboardInput` enable keyboard input support (default `true`)
+* `dayClass` callback function to add custom class to a day, is passed (dayOptions, classList)
 
 ## jQuery Plugin
 
