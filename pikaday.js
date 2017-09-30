@@ -1080,7 +1080,8 @@
             }
 
             this.el.style.left = Math.max(0, left) + 'px';
-            this.el.style.top = top + 'px';
+            this.el.style.top = Math.max(0, top) + 'px';
+
         },
 
         /**
